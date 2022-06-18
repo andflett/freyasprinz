@@ -13,7 +13,7 @@ import { Layout } from "~/Layout";
 const Home: NextPage = () => {
   return (
     <Layout>
-      <Container padding={"10"} minW="5xl">
+      <Container padding={"10"} minW={{ base: "2xl", md: "5xl" }}>
         <Box bg="white" padding={20} boxShadow="md">
           <Stack spacing="10">
             <Heading size={"4xl"} color={"orange"}>
