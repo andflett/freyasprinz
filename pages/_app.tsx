@@ -9,6 +9,9 @@ import Theme from "~/Theme";
 // Some site furniture components
 import { MetaTags } from "~/Layout/MetaTags";
 
+import "@fontsource/fascinate-inline/400.css";
+import "@fontsource/roboto-mono/200.css";
+
 function MyApp({ Component, pageProps }: AppProps) {
   const router = useRouter();
 

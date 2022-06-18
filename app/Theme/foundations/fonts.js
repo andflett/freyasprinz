@@ -1,6 +1,6 @@
 const fonts = {
-  body: "IBM Plex Sans, sans-serif",
-  heading: "Lora, sans-serif",
+  heading: "Fascinate Inline, sans-serif",
+  body: "Roboto Mono, sans-serif",
   mono: "Menlo, monospace",
 };
 

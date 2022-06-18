@@ -4,7 +4,7 @@ import { Header } from "./Header";
 export function Layout({ children, ...rest }: BoxProps) {
   return (
     <>
-      <Box bg="gray.25">
+      <Box bg="turquoise" minH="100vh">
         <Header />
         <Box as={"main"} {...rest}>
           {children}
