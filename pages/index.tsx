@@ -6,8 +6,10 @@ import {
   Stack,
   UnorderedList,
   ListItem,
+  Flex,
 } from "@chakra-ui/react";
 import type { NextPage } from "next";
+import { Shh } from "~/Images/Shh";
 import { Layout } from "~/Layout";
 
 const Home: NextPage = () => {
@@ -19,20 +21,23 @@ const Home: NextPage = () => {
       >
         <Box bg="white" padding={20} boxShadow="md">
           <Stack spacing="10">
-            <Heading size={"4xl"} color={"orange"}>
+            <Heading size={{ base: "3xl", md: "4xl" }} color="orange">
               Freya Sprinz’s website
             </Heading>
-            <Stack spacing="2">
-              <Heading fontFamily={"Roboto Mono"} size="xl">
-                Song 1 Secret
-              </Heading>
-              <Text>Oh, you told her are secret</Text>
-            </Stack>
-            <Stack spacing={"2"}>
-              <Heading fontFamily={"Roboto Mono"} size="xl">
+            <Flex justify={"space-between"}>
+              <Stack spacing="3">
+                <Heading fontFamily="Roboto Mono" size="xl">
+                  Song 1 - Secret
+                </Heading>
+                <Text>Oh, you told her our secret.</Text>
+              </Stack>
+              <Shh />
+            </Flex>
+            <Stack spacing="3">
+              <Heading fontFamily="Roboto Mono" size="xl">
                 How to be kind
               </Heading>
-              <UnorderedList>
+              <UnorderedList pl="5">
                 <ListItem>Ask if people are ok when they are sad</ListItem>
                 <ListItem>Help other people</ListItem>
               </UnorderedList>
