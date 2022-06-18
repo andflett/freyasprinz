@@ -24,7 +24,10 @@ const Home: NextPage = () => {
             <Heading size={{ base: "3xl", md: "4xl" }} color="orange">
               Freya Sprinz’s website
             </Heading>
-            <Flex justify={"space-between"}>
+            <Flex
+              justify={"space-between"}
+              direction={{ base: "column", md: "row" }}
+            >
               <Stack spacing="3">
                 <Heading fontFamily="Roboto Mono" size="xl">
                   Song 1 - Secret
