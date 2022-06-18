@@ -17,7 +17,7 @@ const Home: NextPage = () => {
         <Box bg="white" padding={20} boxShadow="md">
           <Stack spacing="10">
             <Heading size={"4xl"} color={"orange"}>
-              Freya Sprinz's website
+              Freya Sprinz’s website
             </Heading>
             <Stack spacing="2">
               <Heading fontFamily={"Roboto Mono"} size="xl">
